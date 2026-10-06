@@ -1,0 +1,13 @@
+# Secrets - never push these
+client/.env
+removebg/src/main/resources/application.properties
+
+# Build / dependencies
+client/node_modules/
+client/dist/
+removebg/target/
+
+# IDE
+.idea/
+.vscode/
+*.iml
